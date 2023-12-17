@@ -1,0 +1,328 @@
+parameters = {
+  "account" => {
+    "id" => 3,
+    "name" => "Gov.Chat"
+  },
+  "additional_attributes" => {},
+  "content_attributes" => {},
+  "content_type" => "text",
+  "content" => nil,
+  "conversation" => {
+    "additional_attributes" => {},
+    "can_reply" => true,
+    "channel" => "Channel::Whatsapp",
+    "contact_inbox" => {
+      "id" => 21,
+      "contact_id" => 16,
+      "inbox_id" => 14,
+      "source_id" => "558688675485",
+      "created_at" => "2023-12-16T18:54:21.948Z",
+      "updated_at" => "2023-12-16T18:54:21.948Z",
+      "hmac_verified" => false,
+      "pubsub_token" => "[FILTERED]"
+    },
+    "id" => 10,
+    "inbox_id" => 14,
+    "messages" => [
+      {
+        "id" => 1348,
+        "content" => nil,
+        "account_id" => 3,
+        "inbox_id" => 14,
+        "conversation_id" => 10,
+        "message_type" => 0,
+        "created_at" => 1702841549,
+        "updated_at" => "2023-12-17T19:32:29.626Z",
+        "private" => false,
+        "status" => "sent",
+        "source_id" => "wamid.HBgMNTU4Njg4Njc1NDg1FQIAEhgUM0ExOTAyMDNDM0RBMjQyOURDREIA",
+        "content_type" => "text",
+        "content_attributes" => {},
+        "sender_type" => "Contact",
+        "sender_id" => 16,
+        "external_source_ids" => {},
+        "additional_attributes" => {},
+        "processed_message_content" => nil,
+        "sentiment" => {},
+        "conversation" => {
+          "assignee_id" => nil,
+          "unread_count" => 1,
+          "last_activity_at" => 1702841549,
+          "contact_inbox" => {
+            "source_id" => "558688675485"
+          }
+        },
+        "attachments" => [
+          {
+            "id" => 43,
+            "message_id" => 1348,
+            "file_type" => "location",
+            "account_id" => 3,
+            "coordinates_lat" => -5.0618567466736,
+            "coordinates_long" => -42.812652587891,
+            "fallback_title" => "",
+            "data_url" => nil
+          }
+        ],
+        "sender" => {
+          "additional_attributes" => {},
+          "custom_attributes" => {
+            "bairro" => "Teria",
+            "cidade" => "Teresina"
+          },
+          "email" => nil,
+          "id" => 16,
+          "identifier" => nil,
+          "name" => "Jonatas Soares",
+          "phone_number" => "+558688675485",
+          "thumbnail" => "",
+          "type" => "contact"
+        }
+      }
+    ],
+    "labels" => [],
+    "meta" => {
+      "sender" => {
+        "additional_attributes" => {},
+        "custom_attributes" => {
+          "bairro" => "Teria",
+          "cidade" => "Teresina"
+        },
+        "email" => nil,
+        "id" => 16,
+        "identifier" => nil,
+        "name" => "Jonatas Soares",
+        "phone_number" => "+558688675485",
+        "thumbnail" => "",
+        "type" => "contact"
+      },
+      "assignee" => nil,
+      "team" => nil,
+      "hmac_verified" => false
+    },
+    "status" => "pending",
+    "custom_attributes" => {},
+    "snoozed_until" => nil,
+    "unread_count" => 1,
+    "first_reply_created_at" => "2023-12-17T19:06:11.233Z",
+    "priority" => nil,
+    "waiting_since" => 1702840127,
+    "agent_last_seen_at" => 1702841255,
+    "contact_last_seen_at" => 0,
+    "timestamp" => 1702841549,
+    "created_at" => 1702752933
+  },
+  "created_at" => "2023-12-17T19:32:29.626Z",
+  "id" => 1348,
+  "inbox" => {
+    "id" => 14,
+    "name" => "Canal de WhatsApp"
+  },
+  "message_type" => "incoming",
+  "private" => false,
+  "sender" => {
+    "account" => {
+      "id" => 3,
+      "name" => "Gov.Chat"
+    },
+    "additional_attributes" => {},
+    "avatar" => "",
+    "custom_attributes" => {
+      "bairro" => "Teria",
+      "cidade" => "Teresina"
+    },
+    "email" => nil,
+    "id" => 16,
+    "identifier" => nil,
+    "name" => "Jonatas Soares",
+    "phone_number" => "+558688675485",
+    "thumbnail" => ""
+  },
+  "source_id" => "wamid.HBgMNTU4Njg4Njc1NDg1FQIAEhgUM0ExOTAyMDNDM0RBMjQyOURDREIA",
+  "attachments" => [
+    {
+      "id" => 43,
+      "message_id" => 1348,
+      "file_type" => "location",
+      "account_id" => 3,
+      "coordinates_lat" => -5.0618567466736,
+      "coordinates_long" => -42.812652587891,
+      "fallback_title" => "",
+      "data_url" => nil
+    }
+  ],
+  "event" => "message_created",
+  "botpress_bot_id" => "[FILTERED]",
+  "chatwoot_bot_token" => "[FILTERED]",
+  "chatwoot" => {
+    "account" => {
+      "id" => 3,
+      "name" => "Gov.Chat"
+    },
+    "additional_attributes" => {},
+    "content_attributes" => {},
+    "content_type" => "text",
+    "content" => nil,
+    "conversation" => {
+      "additional_attributes" => {},
+      "can_reply" => true,
+      "channel" => "Channel::Whatsapp",
+      "contact_inbox" => {
+        "id" => 21,
+        "contact_id" => 16,
+        "inbox_id" => 14,
+        "source_id" => "558688675485",
+        "created_at" => "2023-12-16T18:54:21.948Z",
+        "updated_at" => "2023-12-16T18:54:21.948Z",
+        "hmac_verified" => false,
+        "pubsub_token" => "[FILTERED]"
+      },
+      "id" => 10,
+      "inbox_id" => 14,
+      "messages" => [
+        {
+          "id" => 1348,
+          "content" => nil,
+          "account_id" => 3,
+          "inbox_id" => 14,
+          "conversation_id" => 10,
+          "message_type" => 0,
+          "created_at" => 1702841549,
+          "updated_at" => "2023-12-17T19:32:29.626Z",
+          "private" => false,
+          "status" => "sent",
+          "source_id" => "wamid.HBgMNTU4Njg4Njc1NDg1FQIAEhgUM0ExOTAyMDNDM0RBMjQyOURDREIA",
+          "content_type" => "text",
+          "content_attributes" => {},
+          "sender_type" => "Contact",
+          "sender_id" => 16,
+          "external_source_ids" => {},
+          "additional_attributes" => {},
+          "processed_message_content" => nil,
+          "sentiment" => {},
+          "conversation" => {
+            "assignee_id" => nil,
+            "unread_count" => 1,
+            "last_activity_at" => 1702841549,
+            "contact_inbox" => {
+              "source_id" => "558688675485"
+            }
+          },
+          "attachments" => [
+            {
+              "id" => 43,
+              "message_id" => 1348,
+              "file_type" => "location",
+              "account_id" => 3,
+              "coordinates_lat" => -5.0618567466736,
+              "coordinates_long" => -42.812652587891,
+              "fallback_title" => "",
+              "data_url" => nil
+            }
+          ],
+          "sender" => {
+            "additional_attributes" => {},
+            "custom_attributes" => {
+              "bairro" => "Teria",
+              "cidade" => "Teresina"
+            },
+            "email" => nil,
+            "id" => 16,
+            "identifier" => nil,
+            "name" => "Jonatas Soares",
+            "phone_number" => "+558688675485",
+            "thumbnail" => "",
+            "type" => "contact"
+          }
+        }
+      ],
+      "labels" => [],
+      "meta" => {
+        "sender" => {
+          "additional_attributes" => {},
+          "custom_attributes" => {
+            "bairro" => "Teria",
+            "cidade" => "Teresina"
+          },
+          "email" => nil,
+          "id" => 16,
+          "identifier" => nil,
+          "name" => "Jonatas Soares",
+          "phone_number" => "+558688675485",
+          "thumbnail" => "",
+          "type" => "contact"
+        },
+        "assignee" => nil,
+        "team" => nil,
+        "hmac_verified" => false
+      },
+      "status" => "pending",
+      "custom_attributes" => {},
+      "snoozed_until" => nil,
+      "unread_count" => 1,
+      "first_reply_created_at" => "2023-12-17T19:06:11.233Z",
+      "priority" => nil,
+      "waiting_since" => 1702840127,
+      "agent_last_seen_at" => 1702841255,
+      "contact_last_seen_at" => 0,
+      "timestamp" => 1702841549,
+      "created_at" => 1702752933
+    },
+    "created_at" => "2023-12-17T19:32:29.626Z",
+    "id" => 1348,
+    "inbox" => {
+      "id" => 14,
+      "name" => "Canal de WhatsApp"
+    },
+    "message_type" => "incoming",
+    "private" => false,
+    "sender" => {
+      "account" => {
+        "id" => 3,
+        "name" => "Gov.Chat"
+      },
+      "additional_attributes" => {},
+      "avatar" => "",
+      "custom_attributes" => {
+        "bairro" => "Teria",
+        "cidade" => "Teresina"
+      },
+      "email" => nil,
+      "id" => 16,
+      "identifier" => nil,
+      "name" => "Jonatas Soares",
+      "phone_number" => "+558688675485",
+      "thumbnail" => ""
+    },
+    "source_id" => "wamid.HBgMNTU4Njg4Njc1NDg1FQIAEhgUM0ExOTAyMDNDM0RBMjQyOURDREIA",
+    "attachments" => [
+      {
+        "id" => 43,
+        "message_id" => 1348,
+        "file_type" => "location",
+        "account_id" => 3,
+        "coordinates_lat" => -5.0618567466736,
+        "coordinates_long" => -42.812652587891,
+        "fallback_title" => "",
+        "data_url" => nil
+      }
+    ],
+    "event" => "message_created",
+    "botpress_bot_id" => "[FILTERED]",
+    "chatwoot_bot_token" => "[FILTERED]"
+  }
+}
+
+created_at = parameters["created_at"]
+id = parameters["id"]
+inbox_id = parameters.dig("inbox", "id")
+message_type = parameters["message_type"]
+private = parameters["private"]
+sender_name = parameters.dig("sender", "name")
+
+puts "Created At: #{created_at}"
+puts "ID: #{id}"
+puts "Inbox ID: #{inbox_id}"
+puts "Message Type: #{message_type}"
+puts "Private: #{private}"
+puts "Sender Name: #{sender_name}"

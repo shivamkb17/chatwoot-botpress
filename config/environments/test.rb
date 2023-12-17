@@ -11,6 +11,8 @@ Rails.application.configure do
 
   # Turn false under Spring and add config.action_view.cache_template_loading = true.
   config.cache_classes = true
+  # config.hosts << "22db7fa31ec592cc5809090d89f5b83d.serveo.net"
+
 
   # Eager loading loads your whole application. When running a single test locally,
   # this probably isn't necessary. It's a good idea to do in a continuous integration
