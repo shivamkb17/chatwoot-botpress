@@ -36,10 +36,16 @@ class Chatwoot::SendToBotpress < Micro::Case
 
   private
 
+  def handle_response(response)
     if response.status == 200
-      Success result: JSON.parse(response.body)
+      Success(result: JSON.parse(response.body))
     elsif response.status == 404 && response.body.include?('Invalid Bot ID')
-      Failure result: { message: 'Invalid Bot ID' }
+      Failure(result: { message: 'Invalid Bot ID' })
+    else
+      Failure(result: { message: 'Invalid botpress endpoint' })
+    end
+  end
+
   def determine_message_content(event)
     if event.dig('attachments')&.any? { |attachment| attachment['file_type'] == 'location' }
       handle_location(event)
@@ -75,15 +81,5 @@ class Chatwoot::SendToBotpress < Micro::Case
   rescue StandardError => e
     Rails.logger.error("Transcription error: #{e.message}")
     nil
-  end
-
-  def handle_response(response)
-    if response.status == 200
-      Success(result: JSON.parse(response.body))
-    elsif response.status == 404 && response.body.include?('Invalid Bot ID')
-      Failure(result: { message: 'Invalid Bot ID' })
-    else
-      Failure(result: { message: 'Invalid botpress endpoint' })
-    end
   end
 end
